@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+
+html{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: reapeat(10, 1fr);
+}
+
+.dashboard{
+    background-color: rgb(33, 109, 209);
+    grid-column: 1 / 3;
+    min-height: 100vw;
+    padding-left: 15px;
+}
+
+.dahsboardGroup{
+    display: flex;
+}
+
+.dashImg{
+    height: 50px;
+    width: 50px;
+    filter: invert(80%);
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.dashImgText{
+    color:white;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+li:first-child {
+    margin-top:0;
+}
+
+li{
+    padding: 0;
+    list-style-image: url(media/Material/cog.svg);
+    color: white;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+
+
+.imageUL{
+    display: flex;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.dashImgs{
+    display: flex;
+    flex-direction: column;
+}
+
+.dashImgs > img{
+    height: 20px;
+    width: 20px;
+    filter: invert(80%);
+    margin-bottom: 10px;
+}
+
