@@ -22,20 +22,27 @@ html{
 
 .dahsboardGroup{
     display: flex;
+    padding-bottom: 30px;
 }
 
 .dashImg{
     height: 50px;
     width: 50px;
-    filter: invert(80%);
+    filter: invert(100%);
     grid-column: 1 / 1;
     grid-row: 1 / 1;
 }
 
+.dashImgs{
+    padding-left: 10px;
+}
+
 .dashImgText{
     color:white;
-    padding-left: 15px;
-    padding-top: 10px;
+    padding-left: 20px;
+    padding-top: 12px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 li:first-child {
@@ -55,19 +62,31 @@ li{
 .imageUL{
     display: flex;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 8px;
 }
 
 .dashImgs{
     display: flex;
     flex-direction: column;
+    margin-top: 12px;
 }
 
 .dashImgs > img{
-    height: 20px;
-    width: 20px;
-    filter: invert(80%);
-    margin-bottom: 10px;
+    height: 25px;
+    width: 25px;
+    filter: invert(100%);
+    margin-bottom: 25px;
 }
 
+ul > li{
+    margin-bottom: 29px;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul{
+    padding-left: 30px;
+}
