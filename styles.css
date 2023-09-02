@@ -24,6 +24,7 @@ body{
 .dashboard{
     background-color: rgb(33, 109, 209);
     grid-column: 1 / 3;
+    grid-row: 1 / 41;
     min-height: 150vh;
     padding-left: 15px;
 }
@@ -104,7 +105,7 @@ ul{
     display: flex;
     background-color: white;
     flex-direction: column;
-    grid-column: 3 / 11;
+    grid-column: 3 / 12;
     grid-row: 1 / 8;
     padding-top: 10px;
     padding-left: 20px;
@@ -193,13 +194,16 @@ ul{
     border-radius: 14px;
     color: white;
     font-weight: bold;
+    border: none;
 }
 
 .cardGrid{
     grid-column: 3 / 11;
-    grid-row: 8 / 40;
+    grid-row: 8 / 41;
     background-color: grey;
     padding-left: 20px;
+    padding-top: 10px;
+    
 }
 
 .cardHeadings{
@@ -211,6 +215,42 @@ ul{
 }
 
 .announceHeading{
-    grid-column: 9 / 11;
+    grid-column: 10 / 11;
+}
+
+.card{
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    font-size: medium;
+    padding: 25px;
+    border-radius: 14px;
+    border-left: 10px solid rgb(209, 209, 2);
+}
+
+.CardsGrid2{
+    Display: grid;
+    grid-template-columns: repeat(12, 55px);
+    grid-template-rows: repeat(6,100px);
+}
+
+#card1{
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+}
+
+#card2{
+    grid-row: 1 / 3;
+    grid-column: 8 / 12;
+}
+
+#card3{
+    grid-row: 4 / 8;
+    grid-column: 1 / 3;
+}
+
+#card4{
+    grid-row: 4 / 8;
+    grid-column: 8 / 12;
 }
 
