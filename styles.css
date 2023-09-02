@@ -102,7 +102,7 @@ ul{
 
 .header{
     display: flex;
-    background-color: brown;
+    background-color: white;
     flex-direction: column;
     grid-column: 3 / 11;
     grid-row: 1 / 8;
@@ -123,6 +123,16 @@ ul{
     padding: 8px 230px;
     height: 20px;
     margin-right: 80px;
+    background-color: grey;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(240, 235, 235);
+    opacity: 1; /* Firefox */
+  }
+
+  input, select, textarea{
+    color: #ece1e1;
 }
 
 .bell{
@@ -183,5 +193,24 @@ ul{
     border-radius: 14px;
     color: white;
     font-weight: bold;
+}
+
+.cardGrid{
+    grid-column: 3 / 11;
+    grid-row: 8 / 40;
+    background-color: grey;
+    padding-left: 20px;
+}
+
+.cardHeadings{
+    display: grid;
+}
+
+.projHeading{
+
+}
+
+.announceHeading{
+    grid-column: 9 / 11;
 }
 
