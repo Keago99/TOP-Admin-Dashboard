@@ -231,7 +231,7 @@ ul{
 .CardsGrid2{
     Display: grid;
     grid-template-columns: repeat(12, 55px);
-    grid-template-rows: repeat(6,100px);
+    grid-template-rows: repeat(32,25px);
 }
 
 #card1{
@@ -245,12 +245,32 @@ ul{
 }
 
 #card3{
-    grid-row: 4 / 8;
+    grid-row: 10;
     grid-column: 1 / 3;
 }
 
 #card4{
-    grid-row: 4 / 8;
+    grid-row: 10;
     grid-column: 8 / 12;
 }
 
+#card5{
+    grid-row: 19;
+    grid-column: 1 / 3;
+}
+
+#card6{
+    grid-row: 19;
+    grid-column: 8 / 12;
+}
+
+.cardImages{
+    display: flex;
+    justify-content: end;
+}
+
+.cardImages > img{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
