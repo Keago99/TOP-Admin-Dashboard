@@ -9,11 +9,6 @@ html{
 
 }
 
-body{
-    min-height: 100%;
-}
-
-
 .mainContainer{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -106,7 +101,7 @@ ul{
     background-color: white;
     flex-direction: column;
     grid-column: 3 / 12;
-    grid-row: 1 / 8;
+    grid-row: 1 / 7;
     padding-top: 10px;
     padding-left: 20px;
 }
@@ -199,7 +194,7 @@ ul{
 
 .cardGrid{
     grid-column: 3 / 11;
-    grid-row: 8 / 41;
+    grid-row: 7 / 41;
     background-color: grey;
     padding-left: 20px;
     padding-top: 10px;
@@ -208,10 +203,6 @@ ul{
 
 .cardHeadings{
     display: grid;
-}
-
-.projHeading{
-
 }
 
 .announceHeading{
@@ -278,11 +269,11 @@ ul{
 
 .AnnounceTrend{
     display: grid;
-    grid-row: 10;
+    grid-row: 9;
     grid-column: 9 / 11;
     grid-template-columns: repeat(10, 25px);
-    grid-template-rows: repeat(10, 50px);
-    margin-top: 17px;
+    grid-template-rows: repeat(40, 25px);
+    margin-top: 10px;
 
 }
 
@@ -290,7 +281,7 @@ ul{
     background-color: white;
     border-radius: 14px;
     grid-column: 1 / 11;
-    grid-row: 1 / 8;
+    grid-row: 1 / 16;
 }
 
 .insideAnnounceBlock{
@@ -304,5 +295,46 @@ ul{
 }
 
 .insideAnnounceBlock > p{
+    color: grey;
+}
+
+.trendingBlock{
+    background-color: white;
+    grid-row: 18 / 30;
+    grid-column: 1 / 11;
+    border-radius: 14px;
+}
+
+#trendingHeading{
+    padding: 0;
+    margin: 0;
+    grid-row: 17;
+}
+
+.insideTrendingBlock{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+
+.trendingPair{
+    display: flex;
+}
+
+.trendingPair > img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.shadedInnerTxt{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-left: 10px;
+}
+
+.greyText{
     color: grey;
 }
