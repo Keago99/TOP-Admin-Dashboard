@@ -215,7 +215,8 @@ ul{
 }
 
 .announceHeading{
-    grid-column: 10 / 11;
+    grid-column: 9 / 11;
+    padding-left: 135px;
 }
 
 .card{
@@ -273,4 +274,25 @@ ul{
     height: 30px;
     width: 30px;
     margin-left: 15px;
+}
+
+.AnnounceTrend{
+    display: grid;
+    grid-row: 10;
+    grid-column: 9 / 11;
+    grid-template-columns: repeat(10, 25px);
+    grid-template-rows: repeat(10, 50px);
+    margin-top: 17px;
+
+}
+
+.announceBlock{
+    background-color: white;
+    border-radius: 14px;
+    grid-column: 1 / 11;
+    grid-row: 1 / 6;
+}
+
+.insideAnnounceBlock{
+    margin: 20px;
 }
