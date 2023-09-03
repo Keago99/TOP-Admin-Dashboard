@@ -290,9 +290,19 @@ ul{
     background-color: white;
     border-radius: 14px;
     grid-column: 1 / 11;
-    grid-row: 1 / 6;
+    grid-row: 1 / 8;
 }
 
 .insideAnnounceBlock{
-    margin: 20px;
+    margin: 25px;
+}
+
+.insideAnnounceBlock > p, h5{
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+
+.insideAnnounceBlock > p{
+    color: grey;
 }
